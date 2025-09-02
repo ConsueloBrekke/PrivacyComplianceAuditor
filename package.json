@@ -1,0 +1,31 @@
+{
+  "name": "privacy-compliance-auditor",
+  "version": "1.0.0",
+  "description": "Confidential compliance checking system using Zama FHE for privacy regulation auditing",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node"
+  },
+  "keywords": [
+    "fhe",
+    "privacy",
+    "compliance",
+    "audit",
+    "gdpr",
+    "blockchain",
+    "zama"
+  ],
+  "author": "Privacy Compliance Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.5.0",
+    "dotenv": "^16.3.1"
+  }
+}
