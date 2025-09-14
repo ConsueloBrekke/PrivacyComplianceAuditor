@@ -10,9 +10,6 @@ A decentralized privacy compliance auditing platform powered by Zama's Fully Hom
 
 **Smart Contract Address**: `0xf7f80e8BE9823E5D8df70960cECd7f7A24266098` (Sepolia Testnet)
 
-## 📹 Demo Video
-
- 
 
 ## 🎯 Core Concept
 
